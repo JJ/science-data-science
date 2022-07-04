@@ -1,7 +1,7 @@
 ---
 title: 'Agile (data) science: a (draft) manifesto'
 author: "J. J. Merelo"
-date: "11/4/2021"
+date: "4/7/2021"
 output:
   html_document:
     df_print: paged
@@ -9,12 +9,12 @@ output:
     keep_tex: yes
 bibliography: agile.bib
 abstract: Science has a data management problem, as well as a project management problem.
-  While industrial grade data science teams have embraced the *agile* mindset, and
+  While industrial-grade data science teams have embraced the *agile* mindset, and
   adopted or created all kind of tools to create reproducible workflows, academia-based
-  science is still (mostly) mired in a mindset that's focused on a single final product
-  (a paper), without focusing on incremental improvement and, over all, reproducibility.
+  science is still (mostly) mired in a mindset that is focused on a single final product
+  (a paper), without focusing on incremental improvement, on any specific problem or customer, or,     paying any attention reproducibility.
   In this report we argue towards the adoption of the agile mindset and agile data
-  science tool in academia, to make a more responsible, and over all, reproducible
+  science tools in academia, to make a more responsible, and over all, reproducible
   science.
 ---
 
@@ -111,5 +111,8 @@ In this report we have tried to propose a set of best practices that we think wo
 
 Hypotheses need to be proved, however, and science prides itself in being able to establish *fact* over anecdotal, or even counter-intuitive, evidence. This is why we also provide a *path forward* in the shape of several best practices suggestions that will help prove those hypotheses beyond any doubt. There is strong evidence that supports them, and our own experience using it for some time via open-repository product development, specially in papers such as [@garciaortega2021tropes] and, in general, most papers that we have published lately, helps stakeholder participation in the production of workflows, makes easier to evolve software related to science and streamline product development, and makes also easier to respond to new requirements. Proving the positive effects of these *preferences* is, however, left as future work.
 
+## Acknowledgements
+
+This research was funded by projects TecNM-5654.19-P and DemocratAI PID2020-115570GB-C22.
 
 ## References
