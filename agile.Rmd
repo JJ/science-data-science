@@ -1,7 +1,7 @@
 ---
 title: 'Agile (data) science: a (draft) manifesto'
 author: "J. J. Merelo"
-date: "4/7/2021"
+date: "4/7/2022"
 output:
   html_document:
     df_print: paged
@@ -78,7 +78,7 @@ Techniques such as Scrum [@9140255] have helped in data science (and this, only 
 
 ## The way forward
 
-Agile fixed software development by proposing a series of principles attached to the Agile manifesto [@beck2001manifesto] that eventually spawned a series of tools on one hand, and best practices in other hand. Tools that can be grouped into generic CI and CD toolchains, including MLOps tools [@makinen2021needs] , team work tools (usually attached to source repositories) such as Jira or GitHub itself and the use of different methodologies (Kanban, Scrum), practices (reviews, retros) and roles (product owner, stakeholder)
+Agile fixed software development by proposing a series of principles attached to the Agile manifesto [@beck2001manifesto] that eventually spawned a series of tools on one hand, and best practices in other hand. Tools that can be grouped into generic CI and CD toolchains, including MLOps tools [@makinen2021needs,@kreuzberger2022machine] , team work tools (usually attached to source repositories) such as Jira or GitHub itself and the use of different methodologies (Kanban [@ahmad2013kanban], Scrum), practices (reviews, retrospective meetings) and roles (product owner, stakeholder)
 to streamline software production, bring value to stakeholders, and provide a sane, stable nurturing and eventually productive working environment. I have been advocating for using these techniques for quite a long time, at least since 2011 (last version of the talk on "the art of evolutionary algorithm programming is here [@merelo13]). In this report I try to put everything together under the same framework which we will be calling agile science.
 
 Science should not be different, and a (roughly) direct translation of all these practices, however they are interpreted, would be beneficial. We'll try, anyway, to delve a bit further into those concepts to see how they translate and how they could be applied, in practice, to science.
