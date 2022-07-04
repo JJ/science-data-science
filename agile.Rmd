@@ -3,10 +3,10 @@ title: 'Agile (data) science: a (draft) manifesto'
 author: "J. J. Merelo"
 date: "4/7/2022"
 output:
-  html_document:
-    df_print: paged
   pdf_document:
     keep_tex: yes
+  html_document:
+    df_print: paged
 bibliography: agile.bib
 abstract: Science has a data management problem, as well as a project management problem.
   While industrial-grade data science teams have embraced the *agile* mindset, and
